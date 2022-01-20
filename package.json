@@ -1,13 +1,10 @@
 {
   "name": "animais-fantasticos",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
   "scripts": {
     "build": "webpack --mode production ./script.js -o ./main.js/main.js",
     "dev": "webpack --mode development script.js -output ./main.js/main.js"
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.7.0",
